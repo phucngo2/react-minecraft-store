@@ -1,38 +1,37 @@
 .App {
-  text-align: center;
+    text-align: center;
+    background-color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn,
+.form-select,
+.form-select:active,
+.form-select:focus,
+.form-select:focus:active,
+.form-control,
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+    /* background-color: var(--form-box) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    color: var(--txt); */
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.o-55 {
+    opacity: 0.55;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.w-cart-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 2%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.w-fit-content {
+    width: intrinsic; /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content; /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
 }
