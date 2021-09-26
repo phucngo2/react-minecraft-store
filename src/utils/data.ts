@@ -24,7 +24,7 @@ export const products: readonly IProduct[] = [
     { id: 3, name: "Diamond Helmet", img: Diamond_Helmet, price: 5 },
     {
         id: 4,
-        name: "DiamondLeggings",
+        name: "Diamond Leggings",
         img: Diamond_Leggings,
         price: 7,
     },

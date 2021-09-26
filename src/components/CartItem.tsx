@@ -15,7 +15,7 @@ const CartItem: React.FC<Props> = ({ item }) => {
     const dispatch: Dispatch = useDispatch();
 
     return (
-        <div className="card mb-3">
+        <div className="card mb-3 p-1">
             <div className="row g-0">
                 <div className="col-4">
                     <img
@@ -27,7 +27,7 @@ const CartItem: React.FC<Props> = ({ item }) => {
                 <div className="col-8">
                     <div className="card-body">
                         <h6 className="card-title">{item.name}</h6>
-                        <p className="card-text o-55">
+                        <div className="card-text o-55 py-1">
                             {`${item.price} `}
                             <img
                                 src={emerald}
@@ -37,8 +37,8 @@ const CartItem: React.FC<Props> = ({ item }) => {
                                     width: 24,
                                 }}
                             />
-                        </p>
-                        <p className="card-text d-flex flex-row justify-content-between">
+                        </div>
+                        <div className="card-text d-flex flex-row justify-content-between py-1">
                             <div className="input-group mx-2">
                                 <button
                                     className="btn btn-outline-secondary"
@@ -78,7 +78,7 @@ const CartItem: React.FC<Props> = ({ item }) => {
                             >
                                 <Icon icon="trash" />
                             </button>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
