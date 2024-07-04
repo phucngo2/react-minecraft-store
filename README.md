@@ -1,4 +1,4 @@
-# React Minecraft Store
+# ⚛️ React Minecraft Store
 Just a simple project that I built to pratice using React & Redux.
 
 This site is published at 👉 [React Minecraft Store](https://phucngo2.github.io/react-minecraft-store/)
